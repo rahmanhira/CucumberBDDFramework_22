@@ -41,13 +41,13 @@ public class Hook extends setup {
                 break;
             case "stage":
                 url = "http://stage.taltektc.com";
-                existingStudentEmail =" ";
-                existingStudentPassword = " ";
+                existingStudentEmail ="stgenv@gmail.com ";
+                existingStudentPassword = "Te$t1234";
                 break;
             case "prod":
                 url = "http://prod.taltektc.com";
-                existingStudentEmail =" ";
-                existingStudentPassword = " ";
+                existingStudentEmail ="prodenv@gmail.com ";
+                existingStudentPassword = "Te$t1234";
                 break;
         }
 

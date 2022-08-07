@@ -12,3 +12,5 @@ import io.cucumber.testng.CucumberOptions;
 )
     public class TestRunner extends AbstractTestNGCucumberTests {
 }
+
+// git pull > git add . > git commit -m "Commit message" > git push
