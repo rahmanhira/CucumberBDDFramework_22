@@ -7,7 +7,8 @@ import io.cucumber.testng.CucumberOptions;
                    "json:target/cucumber.json",
                     "html:target/cucumber-html-report"
             },
-            glue = "stepDef"
+            glue = "stepDef",
+        tags = "@logIn"
 )
     public class TestRunner extends AbstractTestNGCucumberTests {
 }
